@@ -2,7 +2,8 @@
 
 **前端：**
 
-*    nodejs：<https://nodejs.cn/>
+*
+    nodejs：<https://nodejs.cn/>
 
     下载教程：<https://blog.csdn.net/Goo_12138/article/details/103755492>
 
@@ -25,13 +26,16 @@
 
 *   第四步：下载poetry并安装AGUI官方给出的python环境依赖
 
-    `pip install poetry    `
+
+    `pip install poetry
+    `
 
     `poetry install`
 
 **大模型API：**
 
-*    注册硅基流动账号，免费使用Qwen3-8B：<https://siliconflow.cn/>
+*
+    注册硅基流动账号，免费使用Qwen3-8B：<https://siliconflow.cn/>
 
 
 
@@ -102,6 +106,7 @@ npx create-next-app@latest
 ### 2.下载相关依赖
 
 ```bash
+cd my-app
 npm install @copilotkit/react-ui @copilotkit/react-core
 npm install @copilotkit/runtime class-validator
 ```
