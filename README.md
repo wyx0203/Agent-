@@ -99,6 +99,13 @@ uvicorn sample_agent.agent_server:app --reload --host 0.0.0.0 --port 8080
 npx create-next-app@latest
 ```
 
+### 2.下载相关依赖
+
+```bash
+npm install @copilotkit/react-ui @copilotkit/react-core
+npm install @copilotkit/runtime class-validator
+```
+
 ### 2.router.ts文件（放在.\src\app\api\copilotkit\route.ts路径下）
 
 ```typescript
