@@ -79,7 +79,7 @@ builder.add_conditional_edges(
         "__end__": END         # 若返回 "__end__", 跳转至 END 节点并终止 
     }
 )
-
+builder.add_edge("tool_node", "ai_node")
 
 # 在多轮对话中，通过MemorySaver保留上一轮的状态（多轮对话必须！）
 from langgraph.checkpoint.memory import MemorySaver
